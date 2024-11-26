@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+header nav {
+  display: flex;
+  gap: 6%;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+}
+header div .log-in {
+  color: #0065fe;
+  border: none;
+  font-size: 16px;
+  background: none;
+  padding: 10px;
+}
+
+header div .try {
+  background-color: #0065fe;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.opt {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.Seamless-transform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.img {
+  margin-left: -150px;
+  border: 2px solid;
+  background: linear-gradient(to right, #75a8f5, white);
+  border-radius: 10px;
+  width: 600px;
+  padding: 15px;
+}
+.one {
+  font-size: larger;
+}
+.four-possibilities {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  margin-top: 40px;
+  max-width: 90%;
+  justify-content: space-between;
+}
+
+.possibilities {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.choose-us {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 90%;
+  margin-top: 10%;
+}
+
+.reasons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6%;
+  width: 60%;
+}
+
+.pricing {
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.prices {
+  display: flex;
+  border: 1px solid blue;
+  border-radius: 12px;
+  margin: 10% auto;
+  position: relative;
+  width: 800px;
+  text-align: left;
+  padding: 20px;
+}
+.pro {
+  background-color: rgb(1, 1, 17);
+  color: white;
+  padding: 60px 30px;
+  position: absolute;
+  top: -40px;
+  left: 250px;
+  border-radius: 8px;
+}
+.teams {
+  padding-left: 340px;
+}
+
+.plan {
+  display: flex;
+  gap: 5px;
+  padding: 15px 0;
+}
+.pricing-buttons {
+  display: flex;
+  gap: 2%;
+  justify-content: center;
+  margin-top: -20px;
+  margin-bottom: 5%;
+}
+
+.trim-form {
+  background: linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.trim-form form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-left: -20%;
+}
+
+.trim-form form span{
+    display: flex;
+    gap: 5px;
+}
+
+.trim-form form input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #0065fe;
+  border-radius: 5px;
+}
+
+.trim-form form button {
+  background-color: #0065fe;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.faq{
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.faq h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.re {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.revolution {
+  background: linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.revolution-content {
+  width: 100%;
+  margin: 0 auto;
+  margin-left: -30%;
+  text-align: center;
+}
+
+.revolution-content h1 {
+  color: white;
+  font-size: 40px;
+  padding-bottom: 2%;
+}
+
+.revolution-content button {
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.group2 {
+  margin-left: -25%;
+}
+
+.foot{
+    padding: 50px 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-1 {
+  display: flex;
+  margin-left: 430px;
+}
+.reso {
+  line-height: 23px;
+}
+.tur {
+  margin-left: 100px;
+  line-height: 23px;
+}
+.leg {
+  margin-left: 80px;
+  line-height: 23px;
+}
+.footer-2 {
+  margin-left: 950px;
+}
